@@ -428,7 +428,7 @@ function Credits() {
         display: "grid", placeItems: "center",
         overflow: "hidden",
       }}>
-        <img src="public/PFP.jpg" alt="Profile" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        <img src="https://raw.githubusercontent.com/mrsaget2003/ht-i18n/land/public/PFP.jpg" alt="Profile" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       </div>
 
       <h2 style={{
