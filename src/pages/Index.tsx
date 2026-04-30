@@ -426,8 +426,10 @@ function Credits() {
         border: `1px solid ${S.borderMid}`,
         background: S.surface, margin: "24px auto 20px",
         display: "grid", placeItems: "center",
-        fontSize: "36px",
-      }}>🇭🇹</div>
+        overflow: "hidden",
+      }}>
+        <img src="public/PFP.jpg" alt="Profile" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      </div>
 
       <h2 style={{
         fontFamily: '"Orbitron", sans-serif', fontSize: "clamp(20px, 3vw, 32px)",
